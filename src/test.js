@@ -1,4 +1,3 @@
-console.log("这是 周凤的大屁股 臀围100cm");
 import string from "./css.js";
 
 const demo = document.querySelector("#demo");
@@ -48,7 +47,7 @@ const player = {
     player.pause();
     time = 0;
     player.play();
-  }
+  },
 };
 //----封装函数，将多次使用的函数封装，再调用这个函数，使代码简洁----↑
 

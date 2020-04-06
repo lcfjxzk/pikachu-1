@@ -1,5 +1,5 @@
 const string = `
-/*用HTML,CSS,JS,画一只皮卡丘。以下是CSS代码。*/
+/*我是熊仲轲，现在纯手工制作一只皮卡丘。以下是CSS代码。可以用右上角的按钮来控制速度。*/
 .skin * {
     box-sizing: border-box;
     margin: 0;
@@ -199,6 +199,7 @@ const string = `
     transform: translateX(180px);
     background: #ff0000;
     border-radius: 50%;
-  }    
+  }
+  /*画完了，这只可爱的皮卡丘送给你。*/    
 `;
 export default string;
