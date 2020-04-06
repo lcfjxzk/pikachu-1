@@ -12,7 +12,7 @@ const string = `
   
   .skin {
     background: #ffe600;
-    min-height: 50vh;
+    min-height: 55vh;
     position: relative;
   }
   .nose {
@@ -23,7 +23,7 @@ const string = `
     height: 0px;
     position: relative;
     left: 50%;
-    top: 120px;
+    top: 110px;
     margin-left: -10px;
     z-index: 10;
     /*层叠上下文原理，防止鼻子被嘴唇覆盖*/
@@ -64,7 +64,7 @@ const string = `
     height: 64px;
     position: absolute;
     left: 50%;
-    top: 75px;
+    top: 65px;
     margin-left: -32px; /*用来定位*/
     background: #2e2e2e;
     border-radius: 50%;
@@ -94,7 +94,7 @@ const string = `
     height: 200px;
     position: absolute;
     left: 50%;
-    top: 145px;
+    top: 135px;
     margin-left: -100px; /*mouth的左边距相对于中线px*/
   }
   .mouth .up {
@@ -177,7 +177,7 @@ const string = `
     border: 3px solid black;
     width: 80px;
     height: 80px;
-    top: 175px;
+    top: 165px;
     margin-left: -40px;
     z-index: 3;
   }
