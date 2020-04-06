@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画皮卡丘</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+    <style id="demo2"></style>
+    <div id="buttons">
+      <button id="btnPause">暂停</button>
+      <button id="btnPlay">播放</button>
+      <button id="btnSlow">慢速</button>
+      <button id="btnNormal">中速</button>
+      <button id="btnFast">快速</button>
+    </div>
+    <style>#buttons {
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+      #buttons > button {
+        margin-bottom: 10px;
+        padding: 4px 8px;
+      }
+      #demo2 {
+        display: none;
+      }
+      #demo {
+        position: fixed;
+        height: 45vh;
+        top: 16px;
+        left: 10px;
+        margin-bottom: 10px;
+        width: 82%;
+
+        overflow-y: auto;
+      }
+      /* #demo表示文字部分 */
+      #demo::-webkit-scrollbar {
+        display: none;
+      }
+      /* 让滚动条隐藏 */
+      #html {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50vh;
+      }
+      /* #html表示皮卡丘图像部分 */
+      /* @media (max-width: 500px) {
+        #html {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 80%;
+          height: 50vh;
+        }
+      } */
+      /* 只能改变皮卡丘图像展示面的大小，要使皮卡丘与手机版匹配，只能改像素 */</style>
+    <div id="html">
+      <div class="skin">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="nose">
+          <div class="yuan"></div>
+        </div>
+        <div class="face left"></div>
+        <div class="face right"></div>
+        <div class="mouth">
+          <div class="up">
+            <div class="lip left"></div>
+            <div class="lip right"></div>
+          </div>
+          <div class="down">
+            <div class="yuan1">
+              <div class="yuan2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="test.f97e128f.js"></script>
+  </body>
+</html>
